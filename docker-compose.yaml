@@ -1,0 +1,6 @@
+services:
+  server:
+    image: "t1-test-server"
+    build: "."
+    ports:
+      - "8080:8080"
